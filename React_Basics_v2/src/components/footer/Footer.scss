@@ -1,0 +1,55 @@
+
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/_mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.app_footer {
+    height: 20rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    .app_footer_content {
+        gap: 4rem;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    h5 {
+        color: var(--bs-primary-color);
+        font-size: 18px !important;
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+        color: $gray-600;
+        font-size: inherit;
+    }
+    .communities_sect ul, .contact_sect ul {
+        font-size: 14px;
+        gap: 15px;
+        padding: 5px 15px;
+        padding-left: 0;
+    }
+    .contact_sect ul {
+        color: $gray-600;
+        gap: 10px;
+        i {
+            font-size: 22px;
+        }
+    }
+    .socials_sect ul {
+        width: 180px;
+        i {
+            font-size: 22px;
+            color: $green-800;
+        }
+    }
+    .rights_sect {
+        margin: 0;
+        font-size: 14px;
+        color: $gray-600;
+    }
+}

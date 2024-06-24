@@ -1,0 +1,48 @@
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/_mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+#root {
+    background-color: lighten($green-100, 15%);
+}
+
+header {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    a.nav_link {
+        color: $gray-600;
+        text-decoration: none;
+        position: relative;
+        &:hover {
+            color: $green-600;
+        }
+    }
+    a.nav_link::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $green-600;
+        transform: scaleX(0); /* Start with the underline hidden */
+        transform-origin: bottom right; /* Origin of the animation */
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    }
+    nav {
+        margin-right: 5rem;
+        ul {
+            list-style-type: none;
+        }
+    }
+    a.nav_link:hover::after {
+        transform: scaleX(1); /* Expand the underline */
+        transform-origin: bottom left; /* Origin of the animation */
+        background-color: $green-600; /* Change underline color on hover */
+      }
+}
+
+
