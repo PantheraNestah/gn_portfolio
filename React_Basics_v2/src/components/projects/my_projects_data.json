@@ -1,6 +1,8 @@
 [
     {
         "title": "Polluwatch",
+        "img": "/img/polluwatch.png",
+        "link": "https://polluwatch.jhubafrica.com/",
         "description": "This is a web based Air Quality Monitoring System leveraging the Openweather API. It is a project that I, alongside other 6 team members, worked on during my internship at Jhub Africa, based in JKUAT. Utilizing Data analytics, machine learning models and AI, Polluwatch provides real-time air quality data and forecasts for various locations and actionable insights for concerned stakeholders.",
         "stack": ["Python", "Django", "ReactJS", "Bootstrap"]
     },
