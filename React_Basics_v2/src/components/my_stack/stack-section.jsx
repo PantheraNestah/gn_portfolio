@@ -14,8 +14,8 @@ export default function StackSection() {
             <>
                 <section id="stack" className="sect_stack col-12"  style={bgImg}>
                     <h4 className="section_title">My stack</h4>
-                    <div className="sect_stack_container col-lg-8 mx-auto">
-                        <div className="stack_row d-flex justify-content-center">
+                    <div className="sect_stack_container col-12 col-lg-8 mx-auto d-flex d-md-block">
+                        <div className="stack_row col-6 col-md-12 d-flex justify-content-center">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="/img/java-4-logo.svg" alt=""/>
                             </div>
@@ -26,7 +26,7 @@ export default function StackSection() {
                                 <img src="/img/js_icon.png" alt=""/>
                             </div>
                         </div>
-                        <div className="stack_row d-flex justify-content-center">
+                        <div className="stack_row col-6 col-md-12 d-flex justify-content-center">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="/img/Spring_Framework_Logo_2018.svg" alt=""/>
                             </div>
@@ -37,7 +37,7 @@ export default function StackSection() {
                                 <img src="/img/react_icon3.png" alt=""/>
                             </div>
                         </div>
-                        <div className="col-lg-5 mx-auto d-flex align-items-center justify-content-center">
+                        <div className="col-lg-5 mx-auto d-none d-md-flex align-items-center justify-content-center">
                             <a href="" className="more_stacks text-center">more</a>
                         </div>
                         <div className="stack_row d-none justify-content-center">

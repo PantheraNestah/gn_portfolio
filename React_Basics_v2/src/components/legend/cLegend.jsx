@@ -6,7 +6,7 @@ export default function MyLegend() {
     return (
         <>
             <section id="home" className="col-12 d-flex align-items-center justify-content-between p-2 pb-4 mb-4">
-                <div className="legend_desc col-md-5 ps-1 d-flex flex-column align-items-start justify-content-between">
+                <div className="legend_desc col-12 col-md-5 ps-1 d-flex flex-column align-items-start justify-content-between">
                     <div className="name_n_tag">
                         <h2>Gift Nestah</h2>
                         <span className="my_tags">Software Developer</span>
@@ -23,7 +23,7 @@ export default function MyLegend() {
                         </div>
                     </div>
                 </div>
-                <div className="legend_img_cont">
+                <div className="d-none d-md-block legend_img_cont">
                     <img src="/img/github_rudrabarad.gif" width={"600px"} alt="Gift Nestah P" />
                 </div>
             </section>

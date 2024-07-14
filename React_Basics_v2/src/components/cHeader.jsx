@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import MyLogo from "../assets/img/gn_portfolio_logo_editted.png";
 
 export default function MyHeader() {
 
     return (
         <>
-            <header className="col-12 d-flex justify-content-end">
-                <nav className={`col-lg-7 d-flex align-items-end justify-content-end`}>
-                    <ul className="col-lg-9 d-flex align-items-center justify-content-between">
+            <header className="col-12 d-flex justify-content-end border">
+                <div className="brand_logo col-5 col-lg-5 d-flex align-items-center justify-content-start border">
+                    <img src={MyLogo} alt="" />
+                </div>
+                <nav className={`col-7 col-lg-7 d-flex align-items-end justify-content-end border`}>
+                    <ul className="col-lg-9 d-none d-md-flex align-items-center justify-content-between">
                         <li><a className="nav_link" href="#home">Home</a></li>
                         <li><a className="nav_link" href="#stack">My Stack</a></li>
                         <li><a className="nav_link" href="#projects">Projects</a></li>
