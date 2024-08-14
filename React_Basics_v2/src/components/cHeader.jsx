@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import MyLogo from "../assets/img/gn_portfolio_logo_editted.png";
+import MyLogo from "../assets/img/gn_name_logo.png";
 
 export default function MyHeader() {
 

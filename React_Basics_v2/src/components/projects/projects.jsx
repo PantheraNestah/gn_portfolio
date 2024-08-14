@@ -18,6 +18,7 @@ const Projects = () => {
 
 
 const Project = ({title, img, link, description, stack}) => {
+    console.log(img);
     
     return (
         <article className="project d-flex align-items-start justify-content-center">
