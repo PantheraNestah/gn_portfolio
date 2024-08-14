@@ -14,7 +14,7 @@ export default function MyHeader() {
                         <li><a className="nav_link" href="#home">Home</a></li>
                         <li><a className="nav_link" href="#stack">My Stack</a></li>
                         <li><a className="nav_link" href="#projects">Projects</a></li>
-                        <li><a className="nav_link" href="#" disabled>Experience</a></li>
+                        <li><a className="nav_link" href="#contacts" disabled>Contacts</a></li>
                     </ul>
                 </nav>
             </header>

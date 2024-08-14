@@ -10,36 +10,32 @@ export default function Footer() {
                         <h5>Dev Communities</h5>
                         <ul className="d-flex flex-column justify-content-between">
                             <li>
-                                <a href="">Goolge Developers</a>
+                                <a>Goolge Developers</a>
                             </li>
                             <li>
-                                <a href="">SpringBoot KE</a>
+                                <a>SpringBoot KE</a>
                             </li>
                             <li>
-                                <a href="">Django</a>
+                                <a>Django Community</a>
                             </li>
                             <li>
-                                <a href="">Internet Computers</a>
+                                <a>ICP Developers</a>
                             </li>
                         </ul>
                     </div>
-                    <div className="contact_sect col-5 col-md-4 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2 ps-0">
+                    <div id="contacts" className="contact_sect col-5 col-md-4 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2 ps-0">
                         <h5>Contact Me</h5>
                         <ul className="d-flex flex-column justify-content-between">
                             <li>
                                 <span className="">
-                                    <i className="bi bi-telephone-inbound me-1 me-md-3"></i>
-                                    <span>+254757914258</span>
+                                    <i className="bi bi-telephone-inbound me-1 me-md-2"></i>
+                                    <span>+254 757 914 258</span>
                                 </span>
                             </li>
                             <li>
-                                <i className="bi bi-envelope-at me-1 me-md-3"></i>
-                                <a href="">giftnestah@gmail.com</a>
+                                <i className="bi bi-envelope-at  me-md-2"></i>
+                                <a>giftnestah@gmail.com</a>
                             </li>
-                            {/* <li>
-                                <i className="bi bi-whatsapp me-3"></i>
-                                <span href="">WhatsApp</span>
-                            </li> */}
                         </ul>
                     </div>
                     <div className="socials_sect col-5 col-md-4 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2">

@@ -37,9 +37,9 @@ export default function StackSection() {
                                 <img src="/img/react_icon3.png" alt=""/>
                             </div>
                         </div>
-                        <div className="col-lg-5 mx-auto d-none d-md-flex align-items-center justify-content-center">
+                        {/* <div className="col-lg-5 mx-auto d-none d-md-flex align-items-center justify-content-center">
                             <a href="" className="more_stacks text-center">more</a>
-                        </div>
+                        </div> */}
                         <div className="stack_row d-none justify-content-center">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="/img/js_icon.png" alt=""/>

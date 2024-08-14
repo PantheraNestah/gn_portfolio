@@ -18,7 +18,6 @@ const Projects = () => {
 
 
 const Project = ({title, img, link, description, stack}) => {
-    console.log(img);
     
     return (
         <article className="project d-flex align-items-start justify-content-center">
@@ -30,7 +29,7 @@ const Project = ({title, img, link, description, stack}) => {
                 <p className="">{description}</p>
                 <ul className="project_stack d-flex align-items-center">
                     {stack.map((item, index) => {
-                        return <li key={index}>{item},</li>
+                        return <li key={index}>{item}</li>
                     })}
                 </ul>
                 <a href={link} target="_blank" className="view_proj_link">View project</a>

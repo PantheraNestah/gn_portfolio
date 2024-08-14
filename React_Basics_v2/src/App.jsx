@@ -1,21 +1,16 @@
-/* import "./css/style.min.css" */
-import "./scss/style.scss";
-
-import MyHeader from './components/cHeader'
-import StackSection from './components/my_stack/stack-section'
-import MyLegend from "./components/legend/cLegend"
-import Projects from "./components/projects/projects";
-import Footer from "./components/footer/Footer"
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom"
+import Index from "./pages/Index"
 
 function App() {
 
   return (
     <>
-      <MyHeader />
-      <MyLegend />
-      <StackSection />
-      <Projects />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Navigate to="/index" />} />
+          <Route path="/index" element={<Index />} />
+        </Routes>
+      </Router>
     </>
   )
 }
