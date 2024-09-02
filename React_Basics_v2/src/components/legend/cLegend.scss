@@ -76,3 +76,21 @@
         padding-left: 1rem;
     }
  }
+ @media (max-width: 575.9px) {
+    .legend_desc {
+        .name_n_tag {
+            text-wrap: wrap;
+        }
+    }
+ }
+ @media (min-width: 768px) and (max-width: 991.9px) {
+    .legend_desc {
+        margin-left: 0;
+        .name_n_tag {
+            padding-left: 1rem;
+        }
+    }
+    .cv_connect {
+        margin-left: 1rem;
+    }
+ }

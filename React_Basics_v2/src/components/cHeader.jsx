@@ -10,7 +10,7 @@ export default function MyHeader() {
                     <img src={MyLogo} alt="" />
                 </div>
                 <nav className={`col-7 col-lg-7 d-flex align-items-end justify-content-end`}>
-                    <ul className="col-lg-9 d-none d-md-flex align-items-center justify-content-between">
+                    <ul className="col-lg-9 d-none d-lg-flex align-items-center justify-content-between">
                         <li><a className="nav_link" href="#home">Home</a></li>
                         <li><a className="nav_link" href="#stack">My Stack</a></li>
                         <li><a className="nav_link" href="#projects">Projects</a></li>

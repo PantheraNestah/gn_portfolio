@@ -5,8 +5,8 @@ export default function Footer() {
     return (
         <>
             <footer className="app_footer col-12 d-flex flex-column justify-content-between align-items-center">
-                <div className="app_footer_content col-12 col-lg-9 mx-lg-auto d-flex align-items-start justify-content-start justify-content-md-center">
-                    <div className="communities_sect col-5 col-md-4 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2  ps-md-0">
+                <div className="app_footer_content col-12 col-md-11 mx-md-auto col-lg-9 mx-lg-auto d-flex align-items-start justify-content-start justify-content-md-center">
+                    <div className="communities_sect col-5 col-md-3 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2  ps-md-0">
                         <h5>Dev Communities</h5>
                         <ul className="d-flex flex-column justify-content-between">
                             <li>
@@ -38,7 +38,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="socials_sect col-5 col-md-4 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2">
+                    <div className="socials_sect col-5 col-md-3 col-lg-3 d-flex flex-column align-items-start p-0 p-md-2">
                         <h5>Lets Connect</h5>
                         <ul className="d-flex align-items-center justify-content-between p-0 p-md-2 ps-0">
                             <li>

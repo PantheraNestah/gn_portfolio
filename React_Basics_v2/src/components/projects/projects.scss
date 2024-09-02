@@ -108,3 +108,28 @@
         }
     }
 }
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .projects_section {
+        padding-left: 2rem;
+        .section_title {
+            margin-left: 1rem;
+        }
+    }
+    .project {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 20px 0;
+        margin: 2rem 0;
+        &:nth-child(even) {
+            flex-direction: column;
+        }
+    }
+    .project_photo {
+        width: 620px;
+        height: 350px;
+        img {
+            width: 620px;
+            height: 350px;
+        }
+    }
+}
