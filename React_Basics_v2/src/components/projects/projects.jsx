@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <section id="projects" className="projects_section col-12">
             <h2 className="section_title col-md-6 col-lg-5">Projects</h2>
-            <div className="projects_container col-md-11 col-lg-10 mx-md-auto">
+            <div className="projects_container col-md-11 col-xl-10 mx-md-auto">
                 {prop_data.map((project, index) => {
                     return <Project key={index} {...project} />
                 })}

@@ -4,10 +4,13 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 .legend_desc {
-    height: 27rem;
+    height: 26rem;
     margin-left: 4rem;
     .name_n_tag {
         padding-left: 0;
+    }
+    p {
+        margin: 0;
     }
     h2 {
         font-size: 78px;
@@ -62,6 +65,9 @@
  }
  .legend_img_cont {
      margin-right: 4rem;
+     img {
+        width: 600px;
+     }
  }
  .section_title {
     color: $green-800;
@@ -69,15 +75,21 @@
 
  @media (max-width: 767.9px) {
     #home {
+        padding-bottom: 0.7rem;
         margin-bottom: 2rem;
+        height: fit-content;
     }
     .legend_desc {
         margin-left: 0;
-        padding-left: 1rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+        gap: 1.3rem;
+        height: fit-content;
     }
  }
  @media (max-width: 575.9px) {
     .legend_desc {
+        gap: 1.3rem;
         .name_n_tag {
             text-wrap: wrap;
         }
@@ -85,12 +97,37 @@
  }
  @media (min-width: 768px) and (max-width: 991.9px) {
     .legend_desc {
+        height: 23rem;
         margin-left: 0;
-        .name_n_tag {
+        padding-left: 1.7rem;
+        gap: 1.3rem;
+        /* .name_n_tag {
             padding-left: 1rem;
+        } */
+        p {
+            margin: 0;
         }
     }
-    .cv_connect {
+    /* .cv_connect {
         margin-left: 1rem;
+    } */
+ }
+ @media (min-width: 992px) and (max-width: 1199.9px) {
+    #home {
+        gap: 2rem;
+    }
+    .legend_desc {
+        margin-left: 0;
+        padding-left: 1rem;
+        gap: 1.4rem;
+        p {
+            margin: 0;
+        }
+    }
+    .legend_img_cont {
+        margin-right: 0;
+        img {
+           width: 460px;
+        }
     }
  }
