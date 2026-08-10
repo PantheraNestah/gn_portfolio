@@ -42,22 +42,22 @@ export default function Footer() {
                         <h5>Lets Connect</h5>
                         <ul className="d-flex align-items-center justify-content-between p-0 p-md-2 ps-0">
                             <li>
-                                <a target="_blank" href="https://www.linkedin.com/in/gift-nestah1">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gift-nestah/">
                                     <i className="bi bi-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://twitter.com/NiestaDe">
+                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/NiestaDe">
                                     <i className="bi bi-twitter-x"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://github.com/PantheraNestah">
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/PantheraNestah">
                                     <i class="bi bi-github"></i>
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.instagram.com/_its._niesta/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_its._niesta/">
                                     <i className="bi bi-instagram"></i>
                                 </a>
                             </li>

@@ -32,7 +32,7 @@ const Project = ({title, img, link, description, stack}) => {
                         return <li key={index}>{item}</li>
                     })}
                 </ul>
-                <a href={link} target="_blank" className="view_proj_link">View project</a>
+                <a href={link} target="_blank" rel="noopener noreferrer" className="view_proj_link">View project</a>
             </div>
         </article>
     );

@@ -4,7 +4,7 @@ const ResumePage = () => {
     return (
         <div style={{ height: '100vh', width: '100%' }}>
             <object
-                src="/Docs/gn_resume_dev.pdf"
+                src="/Docs/Gift_Nestah_P_CV.pdf"
                 type="application/pdf"
                 width="80%"
                 height="100%"
